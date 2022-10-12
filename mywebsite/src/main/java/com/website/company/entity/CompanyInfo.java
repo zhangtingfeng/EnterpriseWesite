@@ -65,12 +65,18 @@ public class CompanyInfo extends Model<CompanyInfo> {
     private String companyName;
 
     /**
+     * 公司description_short宗旨
+     */
+    @Column(name = "description_short")
+    @TableField("description_short")
+    private String description_short;
+
+    /**
      * 公司宗旨
      */
     @Column(name = "company_purpose")
     @TableField("company_purpose")
     private String companyPurpose;
-
     /**
      * 公司描述
      */
@@ -265,6 +271,15 @@ public class CompanyInfo extends Model<CompanyInfo> {
 
     public void setCompanyName(String companyName) {
         this.companyName = companyName;
+    }
+
+
+    public String getdescription_short() {
+        return description_short;
+    }
+
+    public void setdescription_short(String description_short) {
+        this.description_short = description_short;
     }
 
     public String getCompanyPurpose() {

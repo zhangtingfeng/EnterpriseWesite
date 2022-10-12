@@ -1,0 +1,14 @@
+https://blog.csdn.net/xiaojin21cen/article/details/84622517
+
+
+start nginx.exe       ## 启动服务
+nginx.exe -s stop	  ## 快速停止服务
+nginx.exe -s quit	  ## 优雅的 停止服务
+
+nginx.exe -s reload	  ## 重新加载 配置文件，这命令可以不用停止nginx
+nginx.exe -s reopen	  ## 重新打开日志文件
+
+
+
+
+nginx-service.exe install

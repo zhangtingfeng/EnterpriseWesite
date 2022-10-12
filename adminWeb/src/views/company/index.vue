@@ -31,6 +31,9 @@
             <el-form-item label="公司名称">
               <el-input v-model="companyInfo.companyName" :disabled="!isEdit"></el-input>
             </el-form-item>
+             <el-form-item label="公司短介绍">
+              <el-input type="textarea" :rows="5" v-model="companyInfo.description_short" :disabled="!isEdit"></el-input>
+            </el-form-item>
             <el-form-item label="公司简介">
               <el-input type="textarea" :rows="5" v-model="companyInfo.description" :disabled="!isEdit"></el-input>
             </el-form-item>

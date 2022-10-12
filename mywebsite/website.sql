@@ -91,6 +91,7 @@ CREATE TABLE `company_info` (
   `update_datetime` datetime NOT NULL,
   `company_name` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin DEFAULT NULL,
   `company_purpose` text CHARACTER SET utf8 COLLATE utf8_bin,
+  `description_short` text CHARACTER SET utf8 COLLATE utf8_bin,
   `description` text CHARACTER SET utf8 COLLATE utf8_bin,
   `link_man_id` int(11) DEFAULT NULL,
   `company_culture` text CHARACTER SET utf8 COLLATE utf8_bin,

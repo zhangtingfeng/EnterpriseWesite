@@ -11,6 +11,7 @@
 		<result column="update_datetime" property="updateDatetime" />
 		<result column="company_name" property="companyName" />
 		<result column="company_purpose" property="companyPurpose" />
+		<result column="description_short" property="description_short" />
 		<result column="description" property="description" />
 		<result column="link_man_id" property="linkManId" />
 		<result column="working_range" property="workingRange" />
@@ -32,7 +33,7 @@
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-       id,create_datetime,update_datetime,company_name,company_purpose,description,link_man_id,working_range,
+       id,create_datetime,update_datetime,company_name,company_purpose,description,description_short,link_man_id,working_range,
        team,leader,work_team,company_manage,dev_pic,dev_phone_pic,manage_info,company_culture_title,
        company_culture,mobile_banner_pic,pic,attract_title,attract_content,work_range_pic
     </sql>
